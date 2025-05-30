@@ -115,7 +115,7 @@ func RateLimit(maxRequests int, window time.Duration) gin.HandlerFunc {
 
 // AuthRateLimit is a specific rate limiter for authentication endpoints
 func AuthRateLimit() gin.HandlerFunc {
-	return RateLimit(5, time.Minute) // 5 requests per minute for auth endpoints
+	return RateLimit(10, time.Minute) // 10 requests per minute for auth endpoints
 }
 
 // GeneralRateLimit is a general rate limiter for API endpoints

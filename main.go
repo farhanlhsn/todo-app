@@ -71,7 +71,7 @@ func main() {
 
 			// Category Management
 			taskCategories := task.Group("/categories")
-			{
+			{	
 				taskCategories.GET("/", controllers.GetCategories)
 				taskCategories.POST("/", controllers.CreateCategory)
 				taskCategories.GET("/:name", controllers.GetTasksByCategory)

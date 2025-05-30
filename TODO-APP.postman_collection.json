@@ -22,7 +22,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"Nama\": \"Budi Arie\",\n    \"Email\": \"budiArie69@gmail.com\",\n    \"Password\": \"12345678\"\n}",
+									"raw": "{\n    \"Nama\": \"Joko\",\n    \"Email\": \"joko@gmail.com\",\n    \"Password\": \"12345678\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -52,7 +52,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"email\": \"farhanlhsn@gmail.com\",\n    \"password\": \"12345678\"\n}",
+									"raw": "{\n    \"email\": \"joko@gmail.com\",\n    \"password\": \"12345678\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -124,7 +124,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"name\": \"UKM IEEE\"\n}",
+											"raw": "{\n    \"name\": \"Healing\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -158,14 +158,14 @@
 											"raw": "{\n    \"name\": \"UKM IEEE\"\n}"
 										},
 										"url": {
-											"raw": "{{pathURL}}/task/categories/study",
+											"raw": "{{pathURL}}/task/categories/healing",
 											"host": [
 												"{{pathURL}}"
 											],
 											"path": [
 												"task",
 												"categories",
-												"study"
+												"healing"
 											]
 										}
 									},
@@ -177,14 +177,14 @@
 										"method": "DELETE",
 										"header": [],
 										"url": {
-											"raw": "{{pathURL}}/task/categories/10",
+											"raw": "{{pathURL}}/task/categories/15",
 											"host": [
 												"{{pathURL}}"
 											],
 											"path": [
 												"task",
 												"categories",
-												"10"
+												"15"
 											]
 										}
 									},
@@ -199,7 +199,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"Title\": \"Belajar UAS\",\n    \"Description\": \"Belajar materi dari setelah UTS\",\n    \"DueDate\": \"2025-05-31 08:04\",\n    \"Category\": \"Study\",\n    \"Priority\": \"High\"\n}",
+									"raw": "{\n    \"Title\": \"Liburan Semester Genap\",\n    \"Description\": \"Mau jalan ke Lembang\",\n    \"DueDate\": \"2025-06-15 05:04\",\n    \"Category\": \"Healing\",\n    \"Priority\": \"high\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -282,13 +282,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{pathURL}}/task/4",
+									"raw": "{{pathURL}}/task/9",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
 										"task",
-										"4"
+										"9"
 									]
 								}
 							},
@@ -301,7 +301,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"Title\": \"Tugas Kalkulus\",\n    \"Description\": \"Mengerjakan soal 1-5\"\n}",
+									"raw": "{\n    \"Title\": \"Liburan Semester Ganjil\",\n    \"Description\": \"Mau jalan ke Lembang\",\n    \"DueDate\": \"2025-05-15 05:04\",\n    \"Category\": \"Healing\",\n    \"Priority\": \"high\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -309,13 +309,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{pathURL}}/task/4",
+									"raw": "{{pathURL}}/task/9",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
 										"task",
-										"4"
+										"9"
 									]
 								}
 							},
@@ -336,13 +336,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{pathURL}}/task/1/complete",
+									"raw": "{{pathURL}}/task/9/complete",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
 										"task",
-										"1",
+										"9",
 										"complete"
 									]
 								}
@@ -359,13 +359,13 @@
 									"raw": "{\n    \"Title\": \"\",\n    \"Description\": \"\"\n}"
 								},
 								"url": {
-									"raw": "{{pathURL}}/task/1/uncomplete",
+									"raw": "{{pathURL}}/task/9/uncomplete",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
 										"task",
-										"1",
+										"9",
 										"uncomplete"
 									]
 								}
@@ -382,13 +382,13 @@
 									"raw": "{\n    \"Title\": \"\",\n    \"Description\": \"\"\n}"
 								},
 								"url": {
-									"raw": "{{pathURL}}/task/2",
+									"raw": "{{pathURL}}/task/9",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
 										"task",
-										"2"
+										"9"
 									]
 								}
 							},
@@ -450,7 +450,7 @@
 									"raw": "{\n    \"Title\": \"\",\n    \"Description\": \"\"\n}"
 								},
 								"url": {
-									"raw": "{{pathURL}}/task/search?q=tugas%20besar",
+									"raw": "{{pathURL}}/task/search?q=sem",
 									"host": [
 										"{{pathURL}}"
 									],
@@ -461,7 +461,7 @@
 									"query": [
 										{
 											"key": "q",
-											"value": "tugas%20besar"
+											"value": "sem"
 										}
 									]
 								}
@@ -489,12 +489,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{pathURL}}/user",
+									"raw": "{{pathURL}}/users/profile",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
-										"user"
+										"users",
+										"profile"
 									]
 								}
 							},
@@ -506,12 +507,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{pathURL}}/user/stats",
+									"raw": "{{pathURL}}/users/stats",
 									"host": [
 										"{{pathURL}}"
 									],
 									"path": [
-										"user",
+										"users",
 										"stats"
 									]
 								}
